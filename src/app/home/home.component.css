@@ -1,0 +1,32 @@
+.product-device {
+    position: absolute;
+    right: 5%;
+    bottom: -10%;
+    width: 400px;
+    height: 540px;
+    border-radius: 21px;
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+  }
+  
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    border-radius: 5px;
+  }
+  
+  .product-device-2 {
+    position: absolute;
+    left: 5%;
+    bottom: -10%;
+    width: 400px;
+    height: 540px;
+    border-radius: 21px;
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+  }
+  
